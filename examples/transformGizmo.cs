@@ -3,7 +3,7 @@ using UnityEngine;
 public class TransformGizmoExample : MonoBehaviour
 {
     //This is one of the times GL stuff can be called and draw stuff
-    //the other method is OnPostRender, but that one requires that is script is attached to the camera
+    //the other method is OnPostRender, but that one requires the script to be attached to the camera
     //while OnRenderObject can be attached to different objects
     public void OnRenderObject()
     {
